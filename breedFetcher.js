@@ -22,7 +22,7 @@ const fetchBreedDescription = function(catBreed, callback) {
     }
   
     // Print out description
-    return callback(null, `${data[0].name} Cat Description: ${data[0].description}`);
+    return callback(null, `${data[0].description}`);
   });
 
 };
